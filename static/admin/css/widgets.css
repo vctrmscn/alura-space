@@ -36,6 +36,7 @@
     color: var(--header-link-color);
     cursor: pointer;
 }
+
 .selector-chosen .list-footer-display__clear {
     color: var(--breadcrumbs-fg);
 }
@@ -103,6 +104,7 @@
     margin: 0 0 10px;
     border-radius: 0 0 4px 4px;
 }
+
 .selector .selector-chosen--with-filtered select {
     margin: 0;
     border-radius: 0;
@@ -222,7 +224,7 @@ a.active.selector-clearall:focus, a.active.selector-clearall:hover {
     height: 22px;
     width: 50px;
     margin: 0 0 10px 40%;
-    background-color: #eee;
+    background-color: #EEE;
     border-radius: 10px;
     transform: none;
 }
@@ -485,7 +487,7 @@ span.clearable-file-input label {
 .calendarnav {
     font-size: 0.625rem;
     text-align: center;
-    color: #ccc;
+    color: #CCC;
     margin: 0;
     padding: 1px 3px;
 }

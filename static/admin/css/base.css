@@ -5,85 +5,83 @@
 /* VARIABLE DEFINITIONS */
 html[data-theme="light"],
 :root {
-    --primary: #79aec8;
+    --primary: #79AEC8;
     --secondary: #417690;
-    --accent: #f5dd5d;
-    --primary-fg: #fff;
+    --accent: #F5DD5D;
+    --primary-fg: #FFF;
 
     --body-fg: #333;
-    --body-bg: #fff;
+    --body-bg: #FFF;
     --body-quiet-color: #666;
     --body-loud-color: #000;
 
-    --header-color: #ffc;
+    --header-color: #FFC;
     --header-branding-color: var(--accent);
     --header-bg: var(--secondary);
     --header-link-color: var(--primary-fg);
 
-    --breadcrumbs-fg: #c4dce8;
+    --breadcrumbs-fg: #C4DCE8;
     --breadcrumbs-link-fg: var(--body-bg);
-    --breadcrumbs-bg: #264b5d;
+    --breadcrumbs-bg: #264B5D;
 
     --link-fg: #417893;
     --link-hover-color: #036;
     --link-selected-fg: var(--secondary);
 
-    --hairline-color: #e8e8e8;
-    --border-color: #ccc;
+    --hairline-color: #E8E8E8;
+    --border-color: #CCC;
 
-    --error-fg: #ba2121;
+    --error-fg: #BA2121;
 
-    --message-success-bg: #dfd;
-    --message-warning-bg: #ffc;
-    --message-error-bg: #ffefef;
+    --message-success-bg: #DFD;
+    --message-warning-bg: #FFC;
+    --message-error-bg: #FFEFEF;
 
-    --darkened-bg: #f8f8f8; /* A bit darker than --body-bg */
-    --selected-bg: #e4e4e4; /* E.g. selected table cells */
-    --selected-row: #ffc;
+    --darkened-bg: #F8F8F8; /* A bit darker than --body-bg */
+    --selected-bg: #E4E4E4; /* E.g. selected table cells */
+    --selected-row: #FFC;
 
-    --button-fg: #fff;
+    --button-fg: #FFF;
     --button-bg: var(--secondary);
     --button-hover-bg: #205067;
     --default-button-bg: #205067;
     --default-button-hover-bg: var(--secondary);
     --close-button-bg: #747474;
     --close-button-hover-bg: #333;
-    --delete-button-bg: #ba2121;
-    --delete-button-hover-bg: #a41515;
+    --delete-button-bg: #BA2121;
+    --delete-button-hover-bg: #A41515;
 
     --object-tools-fg: var(--button-fg);
     --object-tools-bg: var(--close-button-bg);
     --object-tools-hover-bg: var(--close-button-hover-bg);
 
-    --font-family-primary:
-        "Segoe UI",
-        system-ui,
-        Roboto,
-        "Helvetica Neue",
-        Arial,
-        sans-serif,
-        "Apple Color Emoji",
-        "Segoe UI Emoji",
-        "Segoe UI Symbol",
-        "Noto Color Emoji";
-    --font-family-monospace:
-        ui-monospace,
-        Menlo,
-        Monaco,
-        "Cascadia Mono",
-        "Segoe UI Mono",
-        "Roboto Mono",
-        "Oxygen Mono",
-        "Ubuntu Monospace",
-        "Source Code Pro",
-        "Fira Mono",
-        "Droid Sans Mono",
-        "Courier New",
-        monospace,
-        "Apple Color Emoji",
-        "Segoe UI Emoji",
-        "Segoe UI Symbol",
-        "Noto Color Emoji";
+    --font-family-primary: "Segoe UI",
+    system-ui,
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+    --font-family-monospace: ui-monospace,
+    Menlo,
+    Monaco,
+    "Cascadia Mono",
+    "Segoe UI Mono",
+    "Roboto Mono",
+    "Oxygen Mono",
+    "Ubuntu Monospace",
+    "Source Code Pro",
+    "Fira Mono",
+    "Droid Sans Mono",
+    "Courier New",
+    monospace,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
 }
 
 html, body {
@@ -139,7 +137,7 @@ p {
     line-height: 140%;
 }
 
-h1,h2,h3,h4,h5 {
+h1, h2, h3, h4, h5 {
     font-weight: bold;
 }
 
@@ -222,7 +220,7 @@ blockquote {
     color: #777;
     margin-left: 2px;
     padding-left: 10px;
-    border-left: 5px solid #ddd;
+    border-left: 5px solid #DDD;
 }
 
 code, pre {
@@ -269,7 +267,7 @@ hr {
 }
 
 div.help ul {
-     margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .help-tooltip {
@@ -426,7 +424,7 @@ table thead th.sorted .sortoptions a.sortremove {
 }
 
 table thead th.sorted .sortoptions a.sortremove:after {
-    content: '\\';
+    content: "\\";
     position: absolute;
     top: -6px;
     left: 3px;
@@ -474,6 +472,7 @@ input, textarea, select, .form-row p, form .button {
     font-weight: normal;
     font-size: 0.8125rem;
 }
+
 .form-row div.help {
     padding: 2px 3px;
 }
@@ -745,7 +744,7 @@ a.deletelink:link, a.deletelink:visited {
 }
 
 a.deletelink:focus, a.deletelink:hover {
-    color: #993333; /* XXX Probably unused? */
+    color: #933; /* XXX Probably unused? */
     text-decoration: none;
 }
 
@@ -787,7 +786,7 @@ a.deletelink:focus, a.deletelink:hover {
     background-color: var(--object-tools-hover-bg);
 }
 
-.object-tools a:focus{
+.object-tools a:focus {
     text-decoration: none;
 }
 
@@ -840,7 +839,7 @@ a.deletelink:focus, a.deletelink:hover {
 }
 
 .main > .content {
-    flex:  1 0;
+    flex: 1 0;
     max-width: 100%;
 }
 
@@ -924,7 +923,7 @@ a.deletelink:focus, a.deletelink:hover {
     color: var(--header-link-color);
 }
 
-#header a:focus , #header a:hover {
+#header a:focus, #header a:hover {
     text-decoration: underline;
 }
 
@@ -974,7 +973,7 @@ a.deletelink:focus, a.deletelink:hover {
     text-align: right;
 }
 
-#user-tools, #logout-form button{
+#user-tools, #logout-form button {
     padding: 0;
     font-weight: 300;
     font-size: 0.6875rem;
@@ -1148,7 +1147,7 @@ a.deletelink:focus, a.deletelink:hover {
     height: 1px;
     padding: 0;
     overflow: hidden;
-    clip: rect(0,0,0,0);
+    clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
     color: var(--body-fg);

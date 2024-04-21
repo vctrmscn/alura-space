@@ -15,7 +15,9 @@
     width: 100%;
 }
 
-.change-list .hiddenfields { display:none; }
+.change-list .hiddenfields {
+    display: none;
+}
 
 .change-list .filtered table {
     border-right: none;
@@ -169,13 +171,13 @@
 }
 
 #changelist-filter details > summary::before {
-    content: '→';
+    content: "→";
     font-weight: bold;
     color: var(--link-hover-color);
 }
 
 #changelist-filter details[open] > summary::before {
-    content: '↓';
+    content: "↓";
 }
 
 #changelist-filter ul {
@@ -270,6 +272,7 @@
     #changelist tbody tr.selected {
         background-color: SelectedItem;
     }
+
     #changelist tbody tr:has(.action-select:checked) {
         background-color: SelectedItem;
     }
